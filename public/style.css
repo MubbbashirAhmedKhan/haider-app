@@ -1,0 +1,396 @@
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 100%;
+  }
+.pic2{
+  width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 30px;
+    
+  
+  }
+ 
+
+  
+
+.card{
+  margin-left: 20px;
+  display: inline-block; 
+  animation-name: mymove; 
+  
+  
+}
+.card:hover{
+  transform: scale(1.005);
+box-shadow: 0 10px 20px rgba(114, 37, 37, 0.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card-text{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: yellow;
+  background-color: black;
+  text-align: center;
+}
+.crd{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 8px;
+  
+}
+
+.card-title{
+  background-color: rgb(209, 41, 41);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+.crd-title{
+  background-color: rgb(209, 41, 41);
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 8px;
+}
+ 
+.list-group-item{
+  background-color: rgb(42, 184, 42);
+  color: white;
+  font-size: 1em;
+}
+.list-group-item{
+  border-radius: 5px;
+}
+
+.prize{
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+.prz{
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.last{
+  justify-content: center;
+  display: flex;
+  background-color: yellowgreen;
+}
+footer{
+  background-color:black ;
+  width: 100%;
+  display: block;
+  
+}
+h2{
+  color: white;
+}
+h2:hover{
+  text-decoration: underline  dotted white;
+}
+.center .box{
+  color: white
+}
+.text{
+  color: white;
+}
+.foot{
+  text-align: center;
+
+
+}
+p{
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-left: 17px;
+  text-decoration: underline;
+  font-size: medium;
+  
+}
+
+
+ .fa-address-card{
+  color: white;
+}
+.fa-phone-square{
+  color: white;
+}
+ .fa-envelope{
+  color: white;
+}
+ /* *{
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing:border-box ;
+  font-family: sans-serif;
+
+}  */
+
+/* footer{
+  position: fixed;
+  width:100px ;
+  bottom:0px ;
+  background:#111 ;
+  
+}  */
+
+ /* .main-content{ 
+  display: inline;
+}  */
+  /* .main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}  */
+/* .box h2{
+  font: size 1.125rem; ;
+  font-weight: 600;
+  text-transform: uppercase;
+} */
+/* .box .content{
+  margin: 20px 0 0 0;
+} */
+/* .left .content .social{
+  margin: 20px 0 0 0;
+} */
+.left .content .social a{
+  padding: 0 2px;
+}
+button{
+  background: white;
+  color: #1a1a1a;
+  font-weight: bolder;
+}
+
+.left .content .social a span{
+  height:40px ;
+  width: 40px;
+  background:#1a1a1a ;
+  line-height: 40px;
+  text-align:center ;
+  font-size:18px ;
+  border-radius:5px ;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+
+}
+.left .content p{
+  text-align: justify;
+}  
+
+.card1{
+  display: inline; 
+  padding: 5px;
+  
+}
+/* .pic10{
+  width: 10%;
+  margin-bottom: 5px;
+  position: absolute;
+  align-items:center ;
+  text-align: center;
+  text-align: justify;
+  margin-left: auto;
+    
+    
+  
+  } */
+
+.card-header{
+  background-color: yellow;
+  color: black;
+  width: 20rem;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+ .lst{
+  width: 80rem;
+  padding: 10px;
+  background-color:  red;
+  border-radius: 10px;
+  
+  
+} 
+/* .list-group-item{
+  color:white;
+  font-size: large;
+  font-weight: 100;
+} */
+
+body{
+ font-family: sans-serif;
+ margin: 20px 40px;
+}
+#mainbox{
+ font-size: 24px;
+ cursor: pointer;
+ transition: all .6s;
+}
+.sidemenu{
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ height: 100%;
+ width: 0px;
+ background-color: #222;
+ z-index: 1;
+ padding-top: 100px;
+ overflow-x: hidden;
+ transition: all .5s;
+}
+.sidemenu a{
+ padding: 8px 8px 8px 64px;
+ text-decoration: none;
+ font-size: 20px;
+ color: #999;
+ display: block;
+}
+.sidemenu a:hover{
+  color: white;
+}
+.sidemenu .closebtn{
+ position: absolute;
+ top: 0px;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 32px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.postimg.cc/YjcJg24M/aa.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	img {
+		width: 100px;
+    /* isko width to dedo */
+	}
+	.nav-area {
+		float: none;
+		margin-top: 0;
+	}
+	.nav-area li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav-area {
+		text-align: center;
+	}
+	.welcome-text {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+}
+
+.active{
+  background-color: #00fecb;
+}
